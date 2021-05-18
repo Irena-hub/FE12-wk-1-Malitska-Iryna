@@ -11,10 +11,11 @@
 }
 .flex-block__list {
     font-weight: 52px;
+    font-display: center;
+    color: #FFFFFF;
     text-align: center;
     align-items: center;
     font-size: 20px;
-
 }
 .flex-block__item-name {
     width: 340px;
@@ -45,5 +46,6 @@
     width: 340px;
     height: 40px;
     margin-top: 4px;
+    color: #86878B;
     background-color: #FFFFFF;
 }
