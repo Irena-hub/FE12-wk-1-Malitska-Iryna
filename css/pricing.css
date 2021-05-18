@@ -1,0 +1,35 @@
+.pricing-section {
+    background-color: #E5E5E5;
+    padding: 80px 0 80px 0;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.pricing-container {
+    width: 1170px;
+    margin: 0;
+    padding: 0 15px;
+}
+.pricing-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 25px;
+    padding-top: 80px;
+    color: solid #212121;
+}
+.pricing-line {
+    width: 64px;
+    border-top: 1px solid #D98943;
+    margin: 0px auto 30px auto;
+}
+.pricing-text {
+    font-size: 14px;
+    font-weight: 363px;
+    line-height: 19px;
+    padding-right: ;
+    text-align: center;
+    margin-bottom: 80px;
+    color: #86878B;
+}
