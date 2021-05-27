@@ -1,0 +1,45 @@
+.header { 
+    padding: 20px 0 19px 0;
+    background-color: #000000;
+}
+.headerrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.headerrow-logo {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    transition: 0.4s; 
+}
+.headerrow-logo::after {
+    content: "IT";
+    color: #D98943;
+}
+.headerrow-nav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.headerrow-nav__item {
+    margin-left: 48px;
+    font-weight: 600;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    transition: 0.2s;
+}
+.headerrow-nav__item:hover {
+    font-weight: 600;
+    color: #EC7979;
+    border-bottom: 2px solid #EC7979;
+    border-left: 2px solid #EC7979;
+    cursor: pointer;
+    transform: scale(1.2 1.2);
+}

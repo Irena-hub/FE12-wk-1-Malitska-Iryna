@@ -1,16 +1,23 @@
-.footer-section {
+.footer {
     padding: 30px 0 15px;
     background-color: #000000;
 }
-.footer-icons {
-    width: 317px;
-    margin: auto;
+.footerrow__item {
     display: flex;
-    justify-content: space-between;
-    color: ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-.footer-icons: {
-    
+.footerrow__icon a {
+    color: #E5E5E5;
+    font-size: 20px;
+    margin-left: 25px;
+}
+.footerrow__icon a:hover {
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
+    color: #EC7979;
 }
 .footer-description {
     font-size: 12px;
@@ -18,5 +25,6 @@
     font-weight: 400;
     margin-top: 18px;
     text-align: center;
+    text-transform: capitalize;
     color: rgba(255, 255, 255, 0.5);
 }

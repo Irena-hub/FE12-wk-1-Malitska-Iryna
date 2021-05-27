@@ -1,0 +1,145 @@
+.main-section {
+    padding: 109px 0 101px 0;
+    background-image: url("/images/bg/mainsectionbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.main-section::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.mainrow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mainrow__card-logo {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    transition: 0.4s; 
+}
+.mainrow__card-logo::after {
+    content: "IT";
+    color: #D98943;
+}
+.mainrow__card-title {
+    width: 544px;
+    font-weight: 409px;
+    line-height: 42px;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: start;
+    color: #FFFFFF;
+}
+.mainrow__card-title:after {
+    content: "";
+    width: 64px;
+    height: 2px;
+    display: flex;
+    border-top: 1px solid #FFFFFF;
+    margin-top: 32px;
+    margin-bottom: 39px;
+}
+.mainrow__card-description {
+    margin-bottom: 39px;
+    text-align: start;
+    width: 300px;
+    color: #86878B;
+}
+.mainrow__block-button {
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+}
+.mainrow__block-button-title {
+    color: #FFFFFF;
+    padding: 11px 26px;
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    font-weight: 600;
+    line-height: 20px;
+    transition: 0.4s;
+}
+.mainrow__block-button-title:hover {
+    border: 1px #333333;
+    background-color: #EC7979;
+    transform: scale(1.2 1.2);
+    cursor: pointer;
+}
+.mainrow-form {
+    padding-top: 20px;
+    display: block;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+.mainrow-form-content {
+    width: 370px;
+    padding-top: 25px;
+    background-color: #FFFFFF;
+    flex-grow: 1;
+}
+.mainrow-form__item {
+    padding: 12px;
+    border: none;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 1.1;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-top: 15px;
+    color: inherit;
+}
+.mainrow-form-title {
+    font-size:20px;
+    font-weight: 700;
+    display: flex;
+    flex-direction:row;
+    text-transform: capitalize;
+    color: #86878B;
+}
+.mainrow-form__item::after {
+    content: "";
+    width: 252px;
+    height: 3px;
+    display: flex;
+    border-top: 1px solid #BDBDBD;
+}
+.mainrow-form-button {
+    padding: 20px 0 20px 0;
+    display: block;
+    text-align: center;
+    border-top: 1px;
+    background-color: #EC7979;
+    transition: 0.4s;
+}
+.mainrow-form-button-title {
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.input {
+    
+}
+.mainrow-form-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}

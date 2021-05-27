@@ -3,7 +3,9 @@
 @import url("../css/customers.css");
 @import url("../css/axure.css");
 @import url("../css/footer.css");
-@import url();
+@import url("../css/header.css");
+@import url("../css/social.css");
+@import url("../css/main.css");
 
 html {
   font-family: 'Raleway', sans-serif;
@@ -25,20 +27,6 @@ section {
   position: relative;
   z-index: 1;
 }
-.title {
-  text-align: center;
-  font-weight: 409px;
-  line-height: 42px;
-  font-size: 36px;
-  text-transform: uppercase;
-}
-.title::after {
-  content: "";
-  width: 64px;
-  height: 2px;
-  display: flex;
-}
 .description {
-  text-align: center;
   line-height: 19px;
 }
