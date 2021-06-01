@@ -22,6 +22,7 @@
     text-align: center;
     margin-bottom: 30px;
     color: #86878B;
+    text-transform: inherit;
 }
 .pricingrow {
     margin-top: 63px;
@@ -32,7 +33,7 @@
     margin-left: -15px;
     margin-right: -15px;
 }
-.pricingrow__item {
+.pricingrow__block {
     width: 340px;
     margin: auto;
     display: flex;
@@ -40,41 +41,41 @@
     justify-content: space-between; 
     text-align: center;
 }
-.pricingrow__item-list:first-child, 
-.pricingrow__item-list:nth-child(2),
-.pricingrow__item-list:nth-child(3) {
+.pricingrow__block-item:first-child, 
+.pricingrow__block-item:nth-child(2),
+.pricingrow__block-item:nth-child(3) {
     background-color: #333333;
     color: #FFFFFF;
     font-family: 'Open Sans', sans-serif;
 }
-.pricingrow__item-list:first-child {
+.pricingrow__block-item:first-child {
     font-size: 20px;
     font-weight: 700;
     padding: 16px 0 7px 0;
     margin-bottom: 1px;
 }
-.pricingrow__item-list:nth-child(2) {
+.pricingrow__block-item:nth-child(2) {
     padding: 26px 0 33px 0;
     font-weight: 700;
     font-size: 35px;
     margin-bottom: 2px;
 }
-.pricingrow__item-list:nth-child(3) {
+.pricingrow__block-item:nth-child(3) {
     color: #FFFFFF50;
     font-weight: 600;
     font-size: 14px;
     padding: 17px 0 14px 0;
     margin-bottom: 4px;
+    transition: 0.2s;
 }
-.pricingrow__item-list:first-child:hover,
-.pricingrow__item-list:nth-child(2):hover,
-.pricingrow__item-list:nth-child(3):hover {
+.pricingrow__block-item:nth-child(3):hover {
     background-color: #EC7979;
+    box-shadow: inset 0 0 15px black;
     color: #FFFFFF;
     cursor: pointer;
     transform: scale(1.1 1.1);
 }
-.pricingrow__item-list {
+.pricingrow__block-item {
     background-color: #FFFFFF;
     color: #86878B;
     font-family: 'Open Sans', sans-serif;

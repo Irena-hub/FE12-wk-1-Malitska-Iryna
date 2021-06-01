@@ -4,36 +4,47 @@
 }
 .socialrow {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-.socialrow-title {
+.socialrow__block {
+    width: 35%;
+}
+.socialrow__block-title {
     font-weight: 700;
     font-size: 20px;
     text-transform: capitalize;
     margin-bottom: 14px;
 }
-.socialrow-description p {
+.socialrow__block-description p {
     color: solid #86878B;
     font-size: 14px;
     text-align: start;
-    width: 365px;
 }
-.socialrow-icon {
+.socialrow__list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 45px;
+}
+.socialrow__icon {
+    margin-right: 45px;
+}
+.socialrow__icon:last-child {
+    margin-right: 0;
+}
+.socialrow__icon i {
+    display: block;
     font-size: 35px;
     color: #86878B;
     transition: 0.4s;
 }
-.fa-facebook-square {
-    margin-left: 0;
+.socialrow__icon i {
+    margin-right:first ;
 }
-.socialrow-icon i:hover {
+.socialrow__icon i:hover {
     cursor: pointer;
     transform: scale(1.3, 1.3);
     color: #EC7979;

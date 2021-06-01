@@ -22,7 +22,6 @@
   }
   .awesome-description {
     color: solid #86878B;
-    width: 400px;
     font-size: 14px;
     margin: auto;  
     text-align: center;                  
@@ -36,11 +35,11 @@
     margin-left: -15px;
     margin-right: -15px;
   }
-  .awesomerow-item {
+  .awesomerow__item {
     width: 350px;
     margin: 0 15px;
   }
-  .awesomerow-item__icon {
+  .awesomerow__item-icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +49,7 @@
     border-radius: 50%;
     margin: 0 auto 30px;
   }
-  .awesomerow-item__title {
+  .awesomerow__item-title {
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
@@ -58,12 +57,12 @@
     margin-bottom: 16px;
     color: solid #333333;
   }
-  .awesomerow-item__text {
+  .awesomerow__item-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
   }
-  .awesomerow-item__text p {
+  .awesomerow__item-text p {
     text-align: center;
     color: solid #000000;
   }
